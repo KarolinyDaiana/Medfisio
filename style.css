@@ -81,14 +81,14 @@
     align-content: center;
 }
 
-#menu-principal-nav a{
+.menu-principal-nav a{
     color: var(--cor-fonte-branca);
     font-family: 'Aileron', sans-serif;
     text-decoration: none;
     list-style: none;
 }
 
-#menu-principal-nav ul {
+.menu-principal-nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around
@@ -103,6 +103,25 @@
 #MP-botoes li{
     margin: 1rem;
     text-decoration: none;
+}
+
+#MP-pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#MP-pesquisa input[type=text] {
+    background-image: url(/assets/Vector.png);
+    background-position: 1px;
+    background-repeat: no-repeat;
+    padding-left: 1.3rem;
+    padding: 0.5rem;
+
+    background-color: var(--cor-fundo-verde);
+    border: solid var(--cor-fundo-branca) 1px;
+    border-radius: 2rem;
 }
 
 #procurar input[type=text] {
@@ -142,6 +161,7 @@
 }
 
 #award a{
+    width: 9rem;
     padding: 0.4rem;
     text-decoration: none;
     font-size: 14px;
@@ -165,4 +185,43 @@
 }
 
 
+.subscribe button {
+    border: solid;
+    border-radius: 2rem;
+    padding: 0.4rem;
+}
+
+.subscribe input[type=text] {
+    border: solid;
+    border-radius: 2rem;
+    padding: 0.4rem;
+}
+
+#imagens img {
+  justify-content: center;  
+  /* precisa arrumar */
+}
 /* z-index */
+.segunda-parte {
+    background-color: var(--cor-fundo-preta);
+    font-family: 'Aileron', sans-serif;
+    color: var(--cor-fonte-branca);
+    padding-right: 8rem; 
+    padding-left: 8rem; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagens {
+    background-color: var(--cor-fundo-branca);
+    font-family: 'Aileron', sans-serif;
+    color: var(--cor-fundo-preta);
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
