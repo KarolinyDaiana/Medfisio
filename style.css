@@ -132,6 +132,10 @@
     gap: 10px;
 }
 
+#MP-pesquisa:hover {
+    
+}
+
 #MP-pesquisa input[type=text] {
     background-image: url(/assets/Vector.png);
     background-position: 10px;
@@ -755,8 +759,8 @@
     border: var(--cor-fundo-verde) solid 1px;
     border-radius: 2rem;
     padding: 0.7rem;
-    padding-left: 1.5rem;
-    width: 50%;
+    padding-left: 1rem;
+    width: 60%;
     display: flex;
     justify-content: center;
 }
