@@ -132,10 +132,6 @@
     gap: 10px;
 }
 
-#MP-pesquisa:hover {
-    
-}
-
 #MP-pesquisa input[type=text] {
     background-image: url(/assets/Vector.png);
     background-position: 10px;
